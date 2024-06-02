@@ -19,13 +19,13 @@ app.use(express.json())
 app.use(morgan('dev'));
 
 //routes
-app.use("/api/v1/auth", authRoutes);
+//app.use("/", authRoutes);
 
 //rest api
 app.get("/", (req, res) => {
     res.send('<h1>Welcome to Apni Kala App</h1>');
 });
-
+app.use("/", authRoutes);
 //PORT
 const PORT = process.env.PORT || 8080;
 
