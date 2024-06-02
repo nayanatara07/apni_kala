@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounting App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Apni Kala Accounting</h1>
+    </header>
+    <main>
+        <section id="dashboard">
+            <div id="balance">Balance: $0.00</div>
+            <form id="transaction-form">
+                <input type="text" id="description" placeholder="Description" required>
+                <input type="number" id="amount" placeholder="Amount" required>
+                <select id="category">
+                    <option value="income">Income</option>
+                    <option value="expense">Expense</option>
+                </select>
+                <button type="submit">Add Transaction</button>
+            </form>
+            <div id="transaction-list">
+            </div>
+            <div class="controls">
+                <div>
+                    <label for="filter-category">Filter by Category:</label>
+                    <select id="filter-category">
+                        <option value="all">All</option>
+                        <option value="income">Income</option>
+                        <option value="expense">Expense</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="sort-select">Sort by:</label>
+                    <select id="sort-select">
+                        <option value="date">Date</option>
+                        <option value="amount">Amount</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="search-input">Search Transactions:</label>
+                    <input type="text" id="search-input" placeholder="Search...">
+                </div>
+            </div>
+            <button id="clear-all-btn">Clear All Transactions</button>
+            <button id="export-btn">Export Transactions</button>
+            <button id="undo-btn">Undo Last Transaction</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
