@@ -1,5 +1,3 @@
-# ecommerce-app-2023
-complete mern stack ecommerce project 2023 complete code
-# Please check branches source code is video no wise 
-## here is project playlist : https://youtube.com/playlist?list=PLuHGmgpyHfRzhGkSUfY0vpi67X64g0mXB
-## please like subscribe and share TechinfoYT youtube chaannel
+In today's e-commerce landscape, marketplaces need to foster true economic inclusion. Underrepresented groups face critical roadblocks hindering their potential, including limited access to digital tools, expertise, and knowledge. Apni Kala disrupts this paradigm. It is not merely another marketplace but a comprehensive ecosystem designed to empower marginalized entrepreneurs and unlock their untapped potential.
+ we offer powerful tools and resources curated specifically for their needs.user-friendly business management platforms, and a vibrant community of mentors and peers equip them to navigate the complexities of the digital economy. We bridge the knowledge gap through targeted skill development programs, addressing challenges that traditional marketplaces neglect. 
+This empowers these entrepreneurs to survive and thrive online, generating new revenue streams, creating jobs, and driving sustainable economic growth across diverse communities.
